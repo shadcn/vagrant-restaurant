@@ -1,0 +1,39 @@
+{
+  "ip": "10.10.10.10",
+  "memory": "2048",
+  "synced_folder": {
+    "host_path": "www/",
+    "guest_path": "/var/www",
+    "use_nfs": false
+  },
+  "php": {
+    "version": false
+  },
+  "mysql": {
+    "server_root_password": "root"
+  },
+  "sites": {
+    "restaurant": {
+      "account_name": "root",
+      "account_pass": "root",
+      "account_mail": "arshad@chummun.com",
+      "site_name": "restaurant",
+      "site_mail": "arshad@chummun.com"
+    }
+  },
+  "git": {
+    "user": {
+      "name": "Arshad Chummun",
+      "email": "arshad@chummun.com"
+    },
+    "core": {
+      "editor": "vi"
+    },
+    "color": {
+      "ui": true
+    }
+  },
+  "custom_roles": [
+    "vdd_example"
+  ]
+}
